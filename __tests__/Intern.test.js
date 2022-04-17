@@ -14,7 +14,7 @@ test("gets Intern's school", () => {
 test('get the intern role', () => {
   const intern = new Intern()
 
-  expect(intern.getRole()).toEqual('intern')
+  expect(intern.getRole()).toEqual('Intern')
 })
 
 // Test 3 to get Interns's role calling the getSchool method 

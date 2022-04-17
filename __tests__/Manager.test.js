@@ -7,7 +7,7 @@ const Manager = require('../lib/manager');
 test("gets manager github", () => {
   const manager = new Manager()
 
-  expect(manager.getRole()).toBe('manager');
+  expect(manager.getRole()).toBe('Manager');
 });
 
 
