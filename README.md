@@ -12,7 +12,7 @@
   * [Built](#languages)
   * [Instalation](#header.instal)
   * [Usage](header.usage)
-  * [Link](#Live)
+  * [Link](#Link)
   * [Contribution](#header.contribution)
 
 
@@ -41,7 +41,7 @@
   
 
 
-  ## Live application:  
+  ## Link:  
    https://jmaouchi.github.io/Team-Profile-Generator/
   
 
