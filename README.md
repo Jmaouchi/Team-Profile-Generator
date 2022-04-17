@@ -12,8 +12,7 @@
   * [Built](#languages)
   * [Instalation](#header.instal)
   * [Usage](header.usage)
-  * [License](#header.license)
-  * [Link](#link)
+  * [Link](#Live)
   * [Contribution](#header.contribution)
 
 
@@ -31,7 +30,7 @@
 
   
   
-  # Watch me do it here: ==>  https://github.com/Jmaouchi/README_Generator-/issues/9
+  # Click here to see a walckthrough:   https://github.com/Jmaouchi/Team-Profile-Generator/issues/2
 
   ![](lib/dist/images/team.png)
 
@@ -42,8 +41,8 @@
   
 
 
-  ## Link:  
-   https://github.com/Jmaouchi/Team-Profile-Generator 
+  ## Live application:  
+   https://jmaouchi.github.io/Team-Profile-Generator/
   
 
 
