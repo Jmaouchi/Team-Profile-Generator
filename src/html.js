@@ -1,10 +1,11 @@
-const Manager = require("../lib/Manager");
-
+// generateTeam function that will use the prompt data
 const generateTeam = (teamData) => {
   console.log(teamData);
 
   const html = [];
 
+
+  // generateManager function 
   const generateManager = Manager => {
     let managerHtml = `
     
@@ -23,11 +24,12 @@ const generateTeam = (teamData) => {
   </div>
     
     `
+    //push the managerHtml to the html array
     html.push(managerHtml)
   }
 
 
-
+  // generateEngineer function that will be ran if the manager choose to add an engineer
   const generateEngineer = Engineer  => {
     let engineerHtml = `
     
@@ -41,17 +43,19 @@ const generateTeam = (teamData) => {
     <div class="bg-primary" id="buttom-col">
       <p><span class="span">id</span><span class="text-dark m-3">${Engineer.id}</span></p>
       <p><span class="span">Email</span><span class="text-dark m-3"><a href="mailto:${Engineer.email}">${Engineer.email}</a></span></p>
-      <p><span class="span">GitHub</span><span class="text-dark m-3">${Engineer.github}</span></p>
+      <p><span class="span">GitHub</span><span class="text-dark m-3"><a href="https://github.com/${Engineer.github}">${Engineer.github}</a></span></p>
     </div>
   </div>
     
     `
+
+    //push the engineerHtml to the html array
     html.push(engineerHtml)
 
   }
 
 
-
+  // generateIntern function that will be ran if the manager choose to add an Intern
   const generateIntern = Intern  => {
     let InternHtml = `
     
@@ -70,21 +74,29 @@ const generateTeam = (teamData) => {
   </div>
     
     `
+
+    //push the Intern to the html array
     html.push(InternHtml);
 }
 
 
+
+// run a for loop to loop thru the prompt data
 for (let i = 0; i< teamData.length ; i++){
+  // if the data has a getRole = Manager, then call the generateManager function using that data 
   if(teamData[i].getRole() === "Manager"){
     generateManager(teamData[i])
   }
+  // if the data has a getRole = Engineer, then call the generateEngineer function using that data 
   if(teamData[i].getRole() === "Engineer"){
     generateEngineer(teamData[i])
   }
+  // if the data has a getRole = Intern, then call the generateIntern function using that data 
   if(teamData[i].getRole() === "Intern"){
     generateIntern(teamData[i])
   }
 }
+
 
 return html.join('')
 
