@@ -42,7 +42,7 @@
 
 
   ## Link:  
-   https://jmaouchi.github.io/Team-Profile-Generator/
+  https://github.com/Jmaouchi/Team-Profile-Generator
   
 
 
