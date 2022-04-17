@@ -30,7 +30,12 @@
 
   
   
-  # Click here to see a walckthrough:   https://github.com/Jmaouchi/Team-Profile-Generator/issues/2
+  # Click here to see a walckthrough:   
+
+  Part 1: TDD part  https://github.com/Jmaouchi/Team-Profile-Generator/issues/3
+
+  Part 2: Run app   https://github.com/Jmaouchi/Team-Profile-Generator/issues/2
+
 
   ![](lib/dist/images/team.png)
 
